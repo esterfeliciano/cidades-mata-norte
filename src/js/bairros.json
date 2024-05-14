@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Mônica",
+        "description": "Santa Mônica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.184390, -7.894095]
+      }
+    }
+  ]
+}

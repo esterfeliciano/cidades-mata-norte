@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+#map {
+  z-index: 1;
+  height: 100%;
+  width: 80%;
+}
+
+#data {
+  margin: 8px;
+  padding: 8px;
+}
+
+#floating-button {
+  position: fixed;
+  padding: 9px;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    flex-direction: column;
+  }
+
+  #map {
+    z-index: 1;
+    height: 80%;
+    width: 100%;
+  }
+}
